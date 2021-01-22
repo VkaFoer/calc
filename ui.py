@@ -96,4 +96,13 @@ class Ui_Form(object):
         self.six.setText(QCoreApplication.translate("Form", u"6", None))
         self.nine.setText(QCoreApplication.translate("Form", u"9", None))
     # retranslateUi
+    
+    ''' app = QtWidgets.QApplication(sys.argv)
+
+Form = QtWidgets.QWidget()
+ui = UiForm()
+ui.setupUi(Form)
+Form.show()
+
+sys.exit(app.exec_())'''
 
